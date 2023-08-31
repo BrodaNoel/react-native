@@ -87,7 +87,8 @@ interface ImagePropsAndroid {
 export type ImageSourcePropType =
   | ImageURISource
   | ImageURISource[]
-  | ImageRequireSource;
+  | ImageRequireSource
+  | undefined;
 
 export interface ImageLoadEventData {
   source: {
